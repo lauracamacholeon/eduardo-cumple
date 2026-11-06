@@ -1,0 +1,22 @@
+:root {
+  --noche: #0d1b2a;
+  --noche-2: #14283d;
+  --oro: #c9a96e;
+  --oro-claro: #e6d3a3;
+  --marfil: #f5efe3;
+  --rosa: #d9a89c;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans: 'Jost', system-ui, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  background: var(--noche);
+  color: var(--marfil);
+  font-family: var(--sans);
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
