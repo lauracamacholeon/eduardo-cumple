@@ -15,4 +15,4 @@ export const EVENTO = {
 
 // WhatsApp que recibe las confirmaciones: código de país + número, sin + ni espacios.
 // Ejemplo Colombia: '573001234567'
-export const WHATSAPP = "573138971402";
+export const WHATSAPP = "573024442635";
